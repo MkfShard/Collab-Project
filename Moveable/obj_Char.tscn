@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://CharCircle.png" type="Texture" id=1]
+[ext_resource path="res://CharArrow.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharCircle" type="Sprite" parent="."]
+
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="CharArrow" type="Sprite" parent="CharCircle"]
+
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+
+
